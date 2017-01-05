@@ -95,4 +95,101 @@ input, select {
 
 /*END CSS RESET */
 
+header{
+    background: url(img/banner.jpg) no-repeat center center fixed;
+}
 
+#top-nav .left-panel{
+    float:left;
+}
+#top-nav .right-panel{
+    float:right;
+}
+#top-nav .left-panel:after,#top-nav .right-panel:after{
+    display: block;
+    content:"";
+    clear:both;
+}
+#top-nav .left-panel div{
+    display: inline-block;
+}
+#top-nav .left-panel .tag-line{
+    position: relative;
+    top:-20px;
+    color:#ffffff;
+    font-size:81.25%;
+    padding: 0px 15px;
+}
+#top-nav .right-panel span,#top-nav .right-panel div{
+    display: inline-block;
+}
+#top-nav .right-panel{
+    color:#ffffff;
+    font-size: 81.25%;
+    position: relative;
+    top: 14px;
+ }
+#top-nav .right-panel h4{
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+#top-nav .right-panel .contact{
+    padding-left:5px;
+}
+#top-nav .right-panel .num{
+    color:#b2d234;
+}
+#top-nav .right-panel span.fa-phone{
+    font-size:180%;
+    position: relative;
+    top:-10px;
+}
+nav{
+    padding: 20px 50px;
+    border-bottom: 1px solid #a7a7a7;
+    border-top: 1px solid #a7a7a7;
+    margin-top: -2px;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 55px;
+}
+nav ul li:last-child{
+    margin-right: 0px;
+}
+nav ul li.active a{
+    border-bottom: 4px solid #b2d234;
+    padding-bottom: 15px;
+    color:#b2d234;
+    font-weight: bold;
+}
+nav ul li a{
+    font-size: 87.5%;
+    text-transform: uppercase;
+    color:#ffffff;
+}
+#banner{
+    text-align: center;
+    padding: 130px 0px 140px 0px;
+}
+#banner h2{
+    text-transform: uppercase;
+    font-size: 437.5%;
+    color:#ffffff;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+#banner p{
+    color:#ffffff;
+    font-size:125%;
+    margin-bottom: 70px;
+}
+#banner a{
+    display: inline-block;
+    padding: 18px 52px;
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    background:#b2d234;
+}
