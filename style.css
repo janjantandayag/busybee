@@ -97,6 +97,7 @@ input, select {
 
 header{
     background: url(img/banner.jpg) no-repeat center center fixed;
+    background-size: cover;
 }
 
 #top-nav .left-panel{
@@ -192,4 +193,45 @@ nav ul li a{
     text-transform: uppercase;
     font-weight: bold;
     background:#b2d234;
+}
+
+#about-us{
+    padding: 110px 0px;
+}
+#about-us h1{
+    font-size: 312.5%;
+    text-transform: uppercase;
+    color:#30282a;
+}
+#about-us p{
+    margin-top:30px;
+    font-size: 112.5%;
+    color:#555555;
+    line-height: 
+}
+#about-us a{
+    display: inline-block;
+    padding:20px 65px;
+    margin-top:110px; 
+    color:#ffffff;
+    background:#b2d234;
+    text-transform: uppercase;
+}
+#about-us .about-us-banner{
+    max-width:100%;
+    width:5000px;
+}
+#satisfied-customer{
+    padding:55px 0 50px 0;
+    text-align: center;
+    background: url(img/counter-bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+#satisfied-customer h2{
+    margin: 10px 0 15px 0;
+    color:#ffffff;
+    font-size:500%;
+}
+#satisfied-customer p{
+    color:#ffffff;
 }
