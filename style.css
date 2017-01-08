@@ -235,3 +235,78 @@ nav ul li a{
 #satisfied-customer p{
     color:#ffffff;
 }
+#services{
+    background:#f7f7f7;
+    padding: 140px 0 130px 0;
+}
+#services .services--header, #blogs .blog--header{
+    color:#30282a;
+    font-size: 312.5%;
+    text-transform: uppercase;
+}
+#services .service{
+    margin-top: 55px;
+}
+#services .service h3{
+    color: #30282a;
+    text-transform: uppercase;
+    font-size: 156.25%;
+    margin: 20px 0 30px 0;
+}
+#services p{
+    color:#555555;
+    line-height: 20px;
+}
+#blogs{
+    background: url(img/blog-bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    padding: 130px 0 60px 0;
+}
+#blogs .blog{
+    margin-top: 60px;
+    text-align: center;
+}
+#blogs .blog img{
+    width:100%;
+}
+#blogs .blog h4{
+    color:#b2d234;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+#blogs .blog h3{
+    color:#30282a;
+    text-transform: uppercase;
+    font-size: 156.25%;
+    margin-bottom: 30px;
+}
+#blogs .blog p{
+    color:#555555;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+#blogs .blog a{
+    display: inline-block;
+    padding: 15px 70px;
+    border: 2px solid #30282a; 
+    color:#30282a;
+    font-size:93.75%;
+    text-transform: uppercase;
+}
+#blogs .blog--desc{
+    background: #ffffff;
+    padding: 50px 30px 65px 30px;
+}
+#blogs .view-all{
+    text-align: center;
+    margin-top: 55px;
+}
+#blogs .view-all a{
+    display: inline-block;
+    color:#30282a;
+    text-transform: uppercase;
+    border-bottom: 4px solid #30282a;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
