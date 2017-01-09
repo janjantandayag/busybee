@@ -309,4 +309,62 @@ nav ul li a{
     padding-bottom: 10px;
     text-decoration: none;
 }
+#testimonial{
+    padding: 65px 0 30px 0;
+}
+#testimonial .rating{
+    text-align: center;
+}
+#testimonial .rating span{
+    color:#f8ef24;
+    font-size:150%;
+    margin-right: 10px;
+}
+#testimonial .navigations{
+    text-align: center;
+}
+#testimonial .navigations a{   
+    display: inline-block;
+    width: 40px;
+    height: 4px;
+    background-color: #d2d2d2;
+    margin-right: 10px;
+}
+#testimonial .navigations a.active{
+    background: #202020;
+}
+#testimonial .quote p{
+    text-align: center;
+}
+#testimonial .quote img{
+    margin-left: 255px;
+    position: relative;
+    top:10px;
+}
+#testimonial .quote{
+    margin-bottom: 30px;
+}
+#testimonial .quote p.said{
+    color:#202020;
+    font-size:125%;
+    margin-bottom: 25px;
+}
+#testimonial .quote p.who{
+    text-transform: uppercase;
+    color:#202020;
+    font-size:  112.5%;
+}
+#customer{
+    padding: 30px 0 50px 0;
+}
+#customer img{
+    border: 1px solid #d0d0d0;
+    margin-top: 35px;
+}
+#customer h2{
+    font-size:93.75%;
+    color:#202020;
+    text-align: center;
+    margin-top: 20px;
+}
 
