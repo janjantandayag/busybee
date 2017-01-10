@@ -367,4 +367,139 @@ nav ul li a{
     text-align: center;
     margin-top: 20px;
 }
+#contact{
+    background: url(img/map-bg.jpg) no-repeat center fixed;
+    background-size: cover;
+    padding: 140px 0 140px 0;
+}
+.contact--container{
+    padding: 30px 70px;
+    width:570px;
+    margin: 0 auto;
+    text-align: center;
+    background:#b2d234;
+    color:#ffffff;
+    font-size: 125%;
+}
+#contact .location{
+    border-bottom: 1px solid #ffffff;
+    margin-bottom: 20px;
+}
+#contact .phone{
+    margin-bottom: 20px;
+}
+#contact .location img,#contact .phone img, #contact .email img{
+    margin-bottom: 10px;
+}
+#stay-connected{
+    background: #fafafa;
+}
+#stay-connected .stay-connected--banner{
+    padding: 55px 0 50px 0;
+}
+#stay-connected .stay-connected--banner h1{
+    color:#30282a;
+    font-size: 312.5%;
+    text-transform: uppercase;
+}
+#stay-connected .stay-connected--banner p{
+    margin: 30px 0;
+    color:#555555;
+    font-size: 112.5%;
+    line-height: 25px;
+}
+#stay-connected .stay-connected--banner input,#stay-connected .stay-connected--banner button{
+    height: 45px;
+}
+#stay-connected .stay-connected--banner input{
+    width: 348px;
+    border:1px solid #e5e5e5;
+    background: #fff;
+}
+#stay-connected .stay-connected--banner button{
+    background: #b2d234;
+    border: none;
+    text-transform: uppercase;
+    color:#fff;
+    font-size: 93.75%;
+    font-weight: bold;
+    padding: 0px 30px;
+    position: relative;
+    left:-5px;
+}
+.stay-conected--twitter,.stay-conected--fb{
+    padding: 155px 0 150px 0;
+}
+.stay-conected--fb{
+    background: #b2d234;
+    color:#fff;
+}
+.stay-conected--fb span,.stay-conected--twitter span{
+    font-size: 300%;
+    margin-right:15px;
+}
+.stay-conected--fb h2, .stay-conected--twitter h2{
+    font-size: 156.25%;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    display: inline-block;
+    position: relative;
+    top: -20px;
+}
+.stay-conected--fb p{
+    position: relative;
+    top: -25px;
+    left: 46px;
+}
+.stay-conected--twitter p{
+    position: relative;
+    top: -25px;
+    left: 65px;
+}
+.fb--container,.twitter--container{
+    max-width:80%;
+    margin: 0 auto;
+}
 
+.stay-conected--twitter{
+    background: #202020;    
+    color:#fff;
+}
+#footer{
+    padding: 65px 0 40px 0;
+}
+.footer--about h2{
+    color:#30282a;
+    font-size: 93.75%;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.footer--about p{
+    color:#555555;
+    font-size:87.5%;
+    line-height: 20px;
+}
+.footer--links h2, .social h2,.contact-us h2{
+    text-transform: uppercase;
+    color:#30282a;
+    font-size: 93.75%;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.footer--links a{
+    display: block;
+    color:#555555;
+    font-size: 87.5%;
+    margin-bottom: 20px;
+}
+.social a{
+    display: block;
+    color:#555555;
+    font-size: 87.5%;
+    margin-bottom: 20px;
+}
+.social span{
+    color:#828282;
+    font-size: 125%;
+    width:30px;
+}
