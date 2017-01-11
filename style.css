@@ -466,13 +466,14 @@ nav ul li a{
     color:#fff;
 }
 #footer{
-    padding: 65px 0 40px 0;
+    padding: 65px 0 0 0;
 }
 .footer--about h2{
     color:#30282a;
     font-size: 93.75%;
     text-transform: uppercase;
     margin-bottom: 30px;
+    font-weight: bold;
 }
 .footer--about p{
     color:#555555;
@@ -502,4 +503,52 @@ nav ul li a{
     color:#828282;
     font-size: 125%;
     width:30px;
+}
+.contact-us span:not(.contact-us--address){
+    color: #828282;
+    width: 30px;
+    font-size:150%;
+}
+.contact-us p{
+    color:#828282;
+    margin-top:20px;
+    font-size:81.25%;
+}
+.contact-us--address{
+    position: relative;
+    left:30px;
+}
+#footer .container{
+    border-bottom:1px solid #ebebeb;
+    padding-bottom: 40px;
+}
+#last-footer{
+    padding: 40px 0 50px 0;
+}
+.last-footer--left{
+    float:left;
+}
+.last-footer--right{
+    float: right;
+}
+.last-footer--left p{
+    display: inline;
+    margin-right: 20px;
+    color:#828282;
+}
+.last-footer--left p span{
+    color:#95c449;
+    font-weight: bold;
+    font-weight: 75%;
+}
+.last-footer--left a{
+    color:#828282;
+    font-weight: 75%;
+}
+.last-footer--right p{
+    color:#828282;
+}
+.last-footer--right p span.footer-logo{
+    position: relative;
+    top:5px;
 }
