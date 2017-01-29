@@ -7,7 +7,7 @@ b, i,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure, 
+article, aside, canvas, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, summary,
 time, mark, audio, video {
     margin:0;
@@ -24,7 +24,7 @@ body {
 }
 
 article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section { 
+footer,header,hgroup,menu,nav,section {
     display:block;
 }
 
@@ -60,7 +60,7 @@ ins {
 /* change colours to suit your needs */
 mark {
     background-color:#ff9;
-    color:#000; 
+    color:#000;
     font-style:italic;
     font-weight:bold;
 }
@@ -83,7 +83,7 @@ table {
 hr {
     display:block;
     height:1px;
-    border:0;   
+    border:0;
     border-top:1px solid #cccccc;
     margin:1em 0;
     padding:0;
@@ -207,12 +207,12 @@ nav ul li a{
     margin-top:30px;
     font-size: 112.5%;
     color:#555555;
-    line-height: 
+    line-height:
 }
 #about-us a{
     display: inline-block;
     padding:20px 65px;
-    margin-top:110px; 
+    margin-top:110px;
     color:#ffffff;
     background:#b2d234;
     text-transform: uppercase;
@@ -288,7 +288,7 @@ nav ul li a{
 #blogs .blog a{
     display: inline-block;
     padding: 15px 70px;
-    border: 2px solid #30282a; 
+    border: 2px solid #30282a;
     color:#30282a;
     font-size:93.75%;
     text-transform: uppercase;
@@ -323,7 +323,7 @@ nav ul li a{
 #testimonial .navigations{
     text-align: center;
 }
-#testimonial .navigations a{   
+#testimonial .navigations a{
     display: inline-block;
     width: 40px;
     height: 4px;
@@ -462,7 +462,7 @@ nav ul li a{
 }
 
 .stay-conected--twitter{
-    background: #202020;    
+    background: #202020;
     color:#fff;
 }
 #footer{
@@ -551,4 +551,57 @@ nav ul li a{
 .last-footer--right p span.footer-logo{
     position: relative;
     top:5px;
+}
+.printing-main--header{
+    padding: 86px 0 60px 0;
+}
+.printing-main--header h1{
+    color:#b2d234;
+    font-size:375%;
+    display: inline-block;
+    position: relative;
+    top:-20px;
+    text-transform: uppercase;
+}
+.printing-main--header span{
+    font-size: 200%;
+    color:#b2d234;
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 20px;
+}
+.print-1{
+    background: url(img/printing-1.jpg) no-repeat center center ;
+    background-size: cover;
+    padding: 327px 0 123px 0;
+    text-align: center;
+}
+.print-2{
+    background: url(img/printing-2.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 327px 0 123px 0;
+    text-align: center;
+}
+.print-3{
+    background: url(img/printing-3.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 327px 0 123px 0;
+    text-align: center;
+}
+.print-1 h2, .print-2, .print-3{
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 250%;
+}
+#printing-description{
+  padding: 60px 0 70px 0;
+}
+#printing-description p{
+  color:#555555;
+  font-size: 112.5%;
+  margin-bottom: 40px;
+}
+#printing-description p:last-child{
+  margin-bottom: none;
+  font-style: italic;
 }
