@@ -154,7 +154,7 @@ nav{
 }
 nav ul li {
     display: inline-block;
-    margin-right: 55px;
+    margin-right: 60px;
 }
 nav ul li:last-child{
     margin-right: 0px;
@@ -652,15 +652,15 @@ nav ul li a{
   height: 10px;
   background-color: #b2d234;
 }
-.marketing__header,.design__header{
+.marketing__header,.design__header,.storefront__header{
     padding: 90px 0 50px 0;
 }
-.marketing__header .fa-heart-o,.design__header .fa-desktop{
+.marketing__header .fa-heart-o,.design__header .fa-desktop,.storefront__header .fa-heart-o{
     color:#b2d234; 
     font-size: 375%;
     vertical-align: top;
 }
-.marketing__header .marketing--bold, .design__header .design--bold{
+.marketing__header .marketing--bold, .design__header .design--bold, .storefront__header .storefront--bold{
     text-transform: uppercase;
     color:#b2d234;
     font-size: 375%;
@@ -835,5 +835,45 @@ div[class^="design__works--item-"],div[class*=" design__works--item-"]{
     border:1px solid #b2d234;
     display: inline-block;
 }
+.storefront__banner .col-md-6{
+    padding: 0px;
+}
+.storefront__body--text, .storefront__body--item{
+    font-size: 112.5%;
+    color:#555555;
+}
+.storefront__body--text{
+    line-height: 120%;
+}
+.storefront__body{
+    padding: 100px 0 80px 0;
+}
+.storefront__body--text{
+    margin-bottom: 40px;
+}
+.storefront__body--items{
+    margin-top: 30px;
+}
+.storefront__body--items{
+    list-style: none;
+    margin-left: 70px;
+}
+.storefront__body--item{
+    position: relative;
+    margin-bottom: 25px;
+}
+.storefront__body--item:before{
+    position: absolute;
+    display: block;
+    content:"";
+    width: 10px;
+    height: 10px;
+    background-color: #b2d234;
+    left:-20px;
+    top:2px;
+
+}
+
+
 
 
