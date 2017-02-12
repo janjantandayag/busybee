@@ -652,7 +652,7 @@ nav ul li a{
   height: 10px;
   background-color: #b2d234;
 }
-.marketing__header,.design__header,.storefront__header{
+.contact_header,.marketing__header,.design__header,.storefront__header{
     padding: 90px 0 50px 0;
 }
 .marketing__header .fa-heart-o,.design__header .fa-desktop,.storefront__header .fa-heart-o{
@@ -660,7 +660,7 @@ nav ul li a{
     font-size: 375%;
     vertical-align: top;
 }
-.marketing__header .marketing--bold, .design__header .design--bold, .storefront__header .storefront--bold{
+.contact--bold,.marketing__header .marketing--bold, .design__header .design--bold, .storefront__header .storefront--bold{
     text-transform: uppercase;
     color:#b2d234;
     font-size: 375%;
@@ -871,8 +871,98 @@ div[class^="design__works--item-"],div[class*=" design__works--item-"]{
     background-color: #b2d234;
     left:-20px;
     top:2px;
-
 }
+.contact--bold{
+    margin-left: 0px;
+}
+.contact_options .col-md-4{
+    margin-right:2%;
+    width: 32%;
+}
+.contact_options .col-md-4:last-child{
+    margin-right: 0%;
+}
+.contact_options{
+    margin-bottom: 70px;
+}
+.contact_option{
+    border-top: 5px solid #b2d234;
+    padding-top:30px;
+}
+.contact_option .fa{    
+    color:#b2d234;
+    font-size:250%;
+    height: 85px;
+    width: 20%;
+    float: left;
+    font-weight: bold;
+}
+.contact_option--container{
+    width: 80%;
+    float: left;
+}
+.contact_option--header{
+    font-size:112.5%;
+    color:#555555;
+    margin-bottom: 20px;
+}
+.contact_option--details{
+    font-size: 93.75%;
+    color:#787878;
+    line-height: 150%;
+}
+.contact_form{
+    margin-bottom: 50px;
+}
+.contact_form input[type='text'],.contact_form input[type='email'],.contact_form textarea{
+    background: #f5f5f5;
+    border:none;
+    border-radius: 0px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+.contact_form textarea{
+    height: 223px;
+}
+.contact_form input[type='submit']{
+    padding: 15px 30px;
+    background:#b2d234;
+    color:#ffffff;
+    font-size: 93.75%;
+    text-transform: uppercase;
+    border:none;
+    float:right;
+}
+.contact_map{
+    background: url(img/map.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 83px 0 175px 0;
+}
+.map_container{
+    text-align: center;
+}
+.contact_map address{
+    color:#ffffff;
+    background:#a5d30c;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+}
+.address_nav{
+    background-color: #202020;
+}
+.address_nav-active{
+    background-color: #b2d234;
+}
+.contact_address{
+    text-align: center;
+    padding: 25px 0px;
+    font-size: 112.5%;
+    text-transform: uppercase;
+    color:#fff;
+}
+
+
 
 
 
