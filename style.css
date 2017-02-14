@@ -652,15 +652,16 @@ nav ul li a{
   height: 10px;
   background-color: #b2d234;
 }
-.contact_header,.marketing__header,.design__header,.storefront__header{
+.contact_header,.marketing__header,.design__header,.storefront__header,.digital__header{
     padding: 90px 0 50px 0;
 }
-.marketing__header .fa-heart-o,.design__header .fa-desktop,.storefront__header .fa-heart-o{
+.marketing__header .fa-heart-o,.design__header .fa-desktop,.digital__header .fa-print,.storefront__header .fa-heart-o{
     color:#b2d234; 
     font-size: 375%;
     vertical-align: top;
 }
-.contact--bold,.marketing__header .marketing--bold, .design__header .design--bold, .storefront__header .storefront--bold{
+.contact--bold,.marketing__header .marketing--bold, .design__header .design--bold, .digital__header .design--bold,
+.storefront__header .storefront--bold{
     text-transform: uppercase;
     color:#b2d234;
     font-size: 375%;
@@ -960,6 +961,38 @@ div[class^="design__works--item-"],div[class*=" design__works--item-"]{
     font-size: 112.5%;
     text-transform: uppercase;
     color:#fff;
+}
+#digital_content{
+    margin-bottom: 50px;
+}
+.digital_content--description{
+    color:#555555;
+    font-size: 112.5%;
+    line-height: 120%;
+    margin-bottom: 50px; 
+}
+.digital_products--header{
+    font-weight: bold;
+}
+.digital_products--header, .digital_products--item{
+    font-size: 112.5%;
+    color:#555555;
+}
+.digital_products--item{
+    margin-bottom: 20px;
+    list-style: none;
+    position: relative;
+    margin-left:20px;
+}
+.digital_products--item:before{
+    content:'';
+    position: absolute;
+    display: block;
+    height: 10px;
+    width: 10px;
+    background-color: #b2d234;
+    left:-20px;
+    top:3px;
 }
 
 
