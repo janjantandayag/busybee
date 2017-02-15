@@ -652,15 +652,15 @@ nav ul li a{
   height: 10px;
   background-color: #b2d234;
 }
-.contact_header,.marketing__header,.design__header,.storefront__header,.digital__header{
+.contact_header,.promotional__header,.marketing__header,.design__header,.storefront__header,.digital__header{
     padding: 90px 0 50px 0;
 }
-.marketing__header .fa-heart-o,.design__header .fa-desktop,.digital__header .fa-print,.storefront__header .fa-heart-o{
+.marketing__header .fa-heart-o,.promotional__header .fa-futbol-o,.design__header .fa-desktop,.digital__header .fa-print,.storefront__header .fa-heart-o{
     color:#b2d234; 
     font-size: 375%;
     vertical-align: top;
 }
-.contact--bold,.marketing__header .marketing--bold, .design__header .design--bold, .digital__header .design--bold,
+.contact--bold,.marketing__header .marketing--bold, .promotional__header .promotional--bold,.design__header .design--bold, .digital__header .design--bold,
 .storefront__header .storefront--bold{
     text-transform: uppercase;
     color:#b2d234;
@@ -994,7 +994,56 @@ div[class^="design__works--item-"],div[class*=" design__works--item-"]{
     left:-20px;
     top:3px;
 }
-
+/*
+    PROMOTIONAL PAGE style
+*/
+#promotional_banner{
+    background:url(img/promotional-banner.jpg) no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    padding: 145px 0 145px 0;
+}
+.promotional_banner--header{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 343.75%;
+    padding: 40px 15px;
+    line-height: 125%;
+    border: 7px solid #fff;
+    display: inline-block;
+}
+.promotional_productsIntro,.promotional_products--header,
+.promotional_products--item,.promotional_productsAdvantage--item{
+    color:#555555;
+    font-size: 112.5%;
+    line-height: 150%;
+}
+.promotional_productsIntro, .promotional_products--header,.promotional_products{
+    margin-bottom: 50px;
+}
+.promotional_products--item, .promotional_productsAdvantage--item{
+    list-style: none;
+    margin-bottom: 25px;
+    position: relative;
+}
+.promotional_products--items{
+    width: 24%;
+    display: inline-block;
+    margin-left: 45px;
+}
+.promotional_productsAdvantage--items{
+    margin-left: 45px;
+}
+.promotional_productsAdvantage--item:before,.promotional_products--item:before{
+    position: absolute;
+    content: '';
+    display: block;
+    height: 10px;
+    width:10px;
+    background-color: #b2d234;
+    left:-20px;
+    top:8px;
+}
 
 
 
