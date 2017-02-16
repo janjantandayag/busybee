@@ -652,15 +652,15 @@ nav ul li a{
   height: 10px;
   background-color: #b2d234;
 }
-.directMail__header,.contact_header,.promotional__header,.specialty__header ,.marketing__header,.design__header,.storefront__header,.digital__header{
+.tradeshow__header, .directMail__header,.contact_header,.promotional__header,.specialty__header ,.marketing__header,.design__header,.storefront__header,.digital__header{
     padding: 90px 0 50px 0;
 }
-.directMail__header .fa-envelope-o, .marketing__header .fa-heart-o,.specialty__header .fa-file-image-o,.promotional__header .fa-futbol-o,.design__header .fa-desktop,.digital__header .fa-print,.storefront__header .fa-heart-o{
+.tradeshow__header .fa-archive,.directMail__header .fa-envelope-o, .marketing__header .fa-heart-o,.specialty__header .fa-file-image-o,.promotional__header .fa-futbol-o,.design__header .fa-desktop,.digital__header .fa-print,.storefront__header .fa-heart-o{
     color:#b2d234; 
     font-size: 375%;
     vertical-align: top;
 }
-.directMail__header .directMail--bold, .contact--bold,.marketing__header .marketing--bold, .specialty__header .specialty--bold,.promotional__header .promotional--bold,.design__header .design--bold, .digital__header .design--bold,
+.tradeshow--bold, .directMail__header .directMail--bold, .contact--bold,.marketing__header .marketing--bold, .specialty__header .specialty--bold,.promotional__header .promotional--bold,.design__header .design--bold, .digital__header .design--bold,
 .storefront__header .storefront--bold{
     text-transform: uppercase;
     color:#b2d234;
@@ -1012,16 +1012,16 @@ div[class^="design__works--item-"],div[class*=" design__works--item-"]{
     border: 7px solid #fff;
     display: inline-block;
 }
-.directMail__content--intro,.promotional_productsIntro,.promotional_products--header,
+.tradeshow__content--intro,.directMail__content--intro,.promotional_productsIntro,.promotional_products--header,
 .promotional_products--item,.promotional_productsAdvantage--item{
     color:#555555;
     font-size: 112.5%;
     line-height: 150%;
 }
-.directMail__content--intro,.promotional_productsIntro, .promotional_products--header,.promotional_products{
+.tradeshow__content--intro,.directMail__content--intro,.promotional_productsIntro, .promotional_products--header,.promotional_products{
     margin-bottom: 50px;
 }
-.directMail__content--item,.promotional_products--item, .promotional_productsAdvantage--item{
+.tradeshow__content--item,.directMail__content--item,.promotional_products--item, .promotional_productsAdvantage--item{
     list-style: none;
     margin-bottom: 25px;
     position: relative;
@@ -1034,7 +1034,7 @@ div[class^="design__works--item-"],div[class*=" design__works--item-"]{
 .promotional_productsAdvantage--items{
     margin-left: 45px;
 }
-.promotional_productsAdvantage--item:before,.promotional_products--item:before{
+.tradeshow__content--item:before,.promotional_productsAdvantage--item:before,.promotional_products--item:before{
     position: absolute;
     content: '';
     display: block;
@@ -1075,12 +1075,23 @@ div[class^="design__works--item-"],div[class*=" design__works--item-"]{
     background-size: cover;
     height: 500px;
 }
-.directMail__content--items{
+#tradeshow__banner{
+    background: url(img/tradeshow-banner.jpg) no-repeat center center;
+    background-size: cover;
+    height: 500px;
+}
+.directMail__content--items,.tradeshow__content--items{
     margin-left: 45px;
 }
-.directMail__content--item:before{
-    top:2px;
+.directMail__content--item:before,.tradeshow__content--item:before{
+    top:3px;
 }
+.tradeshow__content--item,.directMail__content--item{
+    color:#555555;
+    font-size: 112.5%;
+}
+
+
 
 
 
