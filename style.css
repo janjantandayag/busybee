@@ -652,21 +652,25 @@ nav ul li a{
   height: 10px;
   background-color: #b2d234;
 }
-.tradeshow__header, .directMail__header,.contact_header,.promotional__header,.specialty__header ,.marketing__header,.design__header,.storefront__header,.digital__header{
+.aboutUs__header_heading,.tradeshow__header, .directMail__header,.contact_header,.promotional__header,.specialty__header ,.marketing__header,.design__header,.storefront__header,.digital__header{
     padding: 90px 0 50px 0;
 }
-.tradeshow__header .fa-archive,.directMail__header .fa-envelope-o, .marketing__header .fa-heart-o,.specialty__header .fa-file-image-o,.promotional__header .fa-futbol-o,.design__header .fa-desktop,.digital__header .fa-print,.storefront__header .fa-heart-o{
+.aboutUs__header_heading .fa-commenting,.tradeshow__header .fa-archive,.directMail__header .fa-envelope-o, .marketing__header .fa-heart-o,.specialty__header .fa-file-image-o,.promotional__header .fa-futbol-o,.design__header .fa-desktop,.digital__header .fa-print,.storefront__header .fa-heart-o{
     color:#b2d234; 
     font-size: 375%;
     vertical-align: top;
 }
-.tradeshow--bold, .directMail__header .directMail--bold, .contact--bold,.marketing__header .marketing--bold, .specialty__header .specialty--bold,.promotional__header .promotional--bold,.design__header .design--bold, .digital__header .design--bold,
-.storefront__header .storefront--bold{
+.aboutUs__header--bold,.tradeshow--bold, .directMail__header .directMail--bold, .contact--bold,.marketing__header .marketing--bold, .specialty__header .specialty--bold,.promotional__header .promotional--bold,.design__header .design--bold, .digital__header .design--bold,
+.storefront__header .storefront--bold,.four04_page--bold,.five05_page--bold{
     text-transform: uppercase;
     color:#b2d234;
     font-size: 375%;
     display: inline-block;
     margin-left: 20px;
+}
+.four04_page--bold,.five05_page--bold{
+    margin-left: 0px;
+    margin-bottom: 55px;
 }
 .marketing--indivbanner-1, .marketing--indivbanner-2{
     padding: 326px 50px 35px 100px;
@@ -1012,13 +1016,16 @@ div[class^="design__works--item-"],div[class*=" design__works--item-"]{
     border: 7px solid #fff;
     display: inline-block;
 }
-.tradeshow__content--intro,.directMail__content--intro,.promotional_productsIntro,.promotional_products--header,
-.promotional_products--item,.promotional_productsAdvantage--item{
+.aboutUs__content--intro{
+    margin-bottom: 50px;
+}
+.aboutUs__content--intro,.tradeshow__content--intro,.four04_page--intro,.directMail__content--intro,.promotional_productsIntro,.promotional_products--header,
+.promotional_products--item,.promotional_productsAdvantage--item, .five05_page--intro{
     color:#555555;
     font-size: 112.5%;
     line-height: 150%;
 }
-.tradeshow__content--intro,.directMail__content--intro,.promotional_productsIntro, .promotional_products--header,.promotional_products{
+.four04_page--intro,.five05_page--intro,.tradeshow__content--intro,.directMail__content--intro,.promotional_productsIntro, .promotional_products--header,.promotional_products{
     margin-bottom: 50px;
 }
 .tradeshow__content--item,.directMail__content--item,.promotional_products--item, .promotional_productsAdvantage--item{
@@ -1049,17 +1056,17 @@ div[class^="design__works--item-"],div[class*=" design__works--item-"]{
     background-size: cover;
     padding: 250px 0;
 }
-.specialty__items{
+.specialty__items, .aboutUs__items{
     margin-left:70px;
 }
-.specialty__item{
+.specialty__item,.aboutUs__item{
     color:#555555;
     font-size: 112.5%;
     margin-bottom: 25px;
     list-style-type: none;
     position: relative;
 }
-.specialty__item:before{
+.specialty__item:before, .aboutUs__item:before{
     position: absolute;
     display: block;
     content: '';
@@ -1090,7 +1097,42 @@ div[class^="design__works--item-"],div[class*=" design__works--item-"]{
     color:#555555;
     font-size: 112.5%;
 }
+#four04_page,#five05_page{
+    padding-top: 85px;
+}
 
+#aboutUs__banner{
+    background: url(img/about-us-banner.jpg) no-repeat center center;
+    background-size: cover;
+    height: 500px;
+}
+.aboutUs__header_nav{
+    padding: 18px 0;
+    background:#fafafa;
+}
+.aboutUs__header-menu{
+    font-size: 87.5%;
+    color:#636363;
+    position: relative;
+    margin-right:35px;
+}
+.aboutUs__header-menu:first-child:before{
+    display: none;
+}
+.aboutUs__header-menu:before{
+    position: absolute;
+    left:-25px;
+    display: inline-block;
+    content: '>>';
+    font-weight: bold;
+    color:#30282a;
+    top:2px;
+
+}
+.aboutUs__header-menu--active{
+    border-bottom: 2px solid #b2d234;
+    color:#b2d234;
+}
 
 
 
