@@ -1244,8 +1244,44 @@ div[class^="design__works--item-"],div[class*=" design__works--item-"]{
     margin-bottom: 35px;
     vertical-align: bottom;
 }
-.blog-single__big{
+.privacy__header--heading{
+    color:#b2d234;
+    text-transform: uppercase;
+    font-size: 375%;
+    padding: 90px 0 60px 0;
 }
+.privacy__header--updatedAt,.privacy__header--intro,
+.privacy__content--header,.privacy__content--desc{
+    margin-bottom: 50px;
+    color:#555555;
+    font-size: 112.5%;
+    line-height: 125%;
+}
+.privacy__content--header{
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
